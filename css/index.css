@@ -1,0 +1,177 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+body{
+	background: #efefef;
+}
+#header{
+	background: #fff;
+	display: block;
+	margin: 0 auto;
+	width: 97%;
+	padding: 1%;
+	height: auto;
+	border:5px solid #0e83cd;
+	border-bottom: 0px solid transparent;
+}
+#header h1{
+	font-family: comic sans ms;
+	letter-spacing: 3px;
+	font-size: 40px;
+}
+.menu li{
+display: inline-block;
+margin: 10px;
+}
+.menu{
+	text-transform: uppercase;
+}
+.nav-li a{
+	display: block;
+	padding: 20px;
+	color: white;
+	cursor: pointer;
+	border:1px solid transparent;
+	background: #0e83cd;
+}
+.nav-li a:hover{
+	border:1px solid #0e83cd;
+	background: white;
+	color: #0e83cd;
+}
+.nav-li ul{
+	display: none;
+}
+li.tap ul{
+	display: block;
+	position: absolute;
+	z-index: 2;
+	background: #0e83cd;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	width: 100%;
+	left: 0;
+	padding: 10px 0;
+}
+.nav-li .arrow:after{
+	content: '\203A';
+	margin-left: 20px;
+	float: right;
+	transform: rotate(90deg);
+}
+li.tap .arrow:after{
+	content: '\2039';
+}
+.nav-li ul li a{
+	border: 1px solid white;
+}
+#body{
+	width: 97%;
+	padding: 1%;
+	margin: 0 auto;
+	display: block;
+	background: white;
+	border:5px solid #0e83cd;
+	border-collapse: collapse;
+	overflow: auto;
+	height: 500px;
+}
+#footer{
+	width: 97%;
+	padding: 2px 1%;
+	margin: 0 auto;
+	display: block;
+	background: white;
+	border:5px solid #0e83cd;
+	border-top: 0px solid white;
+	background: #0e83cd;
+	font-family: comic sans ms;
+	text-align: center;
+	color: white;
+	border-collapse: collapse;	
+}
+#body table{
+width:100%;
+margin: 0 auto;
+border:1px solid #000;
+border-collapse: collapse;
+}
+#body table th,#body table td{
+	border: 1px solid black;
+	padding: 5px;
+} 
+#body table thead{
+	background: #0e83cd;
+	color: white;
+	text-transform: uppercase;
+}
+#body table tbody {
+	vertical-align: top;
+	text-transform: capitalize;
+}
+#body table tbody a{
+	display: block;
+	padding: 5px;
+	color: white;
+	cursor: pointer;
+	border:1px solid transparent;
+	transition: all ease-in-out 0.3s;
+	margin-bottom: 3px;
+	background: #0e83cd;
+}
+#body table tbody a:hover{
+	border:1px solid #0e83cd;
+	background: white;
+	color: #0e83cd;		
+}
+#pencarian{
+	margin: 15px 0;
+}
+#pencarian input[type='text']{
+	padding: 10px 2%;
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+}
+.search-icon{
+	position: relative;
+	font-size: 25px;
+	float: right;
+	margin-right: 65px;
+	top: -33px;
+	cursor: pointer;
+}
+.search-icon img{
+	width: 25px;
+	height: 25px;
+	opacity: 0.8;
+}
+#submenu{
+	width: 100%;
+	text-align: center;
+}
+#submenu li{
+	margin: 5px;
+	display: inline-block;
+}
+#submenu li a{
+	display: block;
+	padding: 10px;
+	color: white;
+	cursor: pointer;
+	border:1px solid transparent;
+	transition: all ease-in-out 0.5s;
+	background: #0e83cd;
+}
+#submenu li a:hover{
+	border:1px solid #0e83cd;
+	background: white;
+	color: #0e83cd;	
+}

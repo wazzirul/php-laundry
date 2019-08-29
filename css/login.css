@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #ddd;
+}
+#box{
+	background: white;
+	position: fixed;
+	top: 20%;
+	height: 58%;
+	width:58%;
+	left:20%;
+	padding: 1%;
+	border:5px solid #0e83cd; 
+	border-bottom-left-radius:50px; 
+	border-top-right-radius:50px; 
+}
+#box table{
+	margin: 0 auto;
+	width: 98%;
+	height: 100%;
+}
+#box table tr th{
+	font-size: 25px;
+	letter-spacing: 2px;
+	font-family: comic sans ms;
+}
+#box input[type='text'],
+#box input[type='password']{
+	width: 100%;
+	padding: 20px;
+	font-size: 20px;
+}
+#box input[type='submit']{
+	display: block;
+	padding: 20px;
+	text-transform: uppercase;
+	border-radius: 10px;
+	background: #0e83cd;
+	cursor: pointer;
+	width: 50%;
+	margin: 0 auto;
+	font-size: 20px;
+	font-family: comic sans ms;
+	letter-spacing: 2px;
+}
